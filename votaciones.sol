@@ -17,6 +17,7 @@ contract Votaciones{
     constructor (){
         owner = msg.sender;
     }
+    
 
     //Relacion entre nombre de candidato y el hash de sus datos 
     mapping (string => bytes32) idCandidato;
